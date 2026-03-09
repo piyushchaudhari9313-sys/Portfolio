@@ -1,0 +1,51 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#blog {
+  margin-left: 100px;
+}
+.blog-header {
+  margin-top: 70px;
+  margin: 20px;
+}
+p{
+    font-size: 19px;
+}
+h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blog-header p{
+    padding-top: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgba(229, 221, 198, 0.996);
+    font-style: oblique;
+}
+.blog-html {
+  margin-top: 10px;
+}
+.blog-css {
+  margin-top: 10px;
+}
+.blog-javascript {
+  margin-top: 10px;
+}
+.blog-growth {
+  margin-top: 10px;
+}
+.blog-goal {
+  margin-top: 10px;
+}
+@media (max-width: 750px){
+  body{
+    margin-right: 50px;
+  }
+  h1{
+    font-size: 28px;
+  }
+  p{
+    font-size:13px;
+  }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">home</a></li>
+                    <li><a href="intro.html">my intro</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="projects.html">projects</a></li>
+                    <li><a href="contact.html">contact me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="ham.png" alt="menu">
+                <img class="cross" src="cross.png" alt="close menu">
+            </div>
+
+            <div class="contact-form">
+                <h1>Contact me for work</h1>
+
+                <!-- Form with class -->
+                <form class="contactForm">
+                    <div class="email">
+                        <label for="clientname">Name</label>
+                        <input type="text" class="form-control" id="clientname" placeholder="Please Enter Your Name"  required>
+                    </div>
+
+                    <div class="email">
+                        <label for="clientEmail">Email address</label>
+                        <input type="email" class="form-control" id="clientEmail" placeholder="Please Enter Your Email Address" required>
+                        <div class="form-text"></div>
+                    </div>
+
+                    <div class="email">
+                        <label for="clientphone">Phone</label>
+                        <input type="tel" class="form-control" id="clientphone" placeholder="Please Enter Your Number" >
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="isclient">
+                        <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                    </div>
+
+                    <div class="btn">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+
+                <!-- Hidden success message -->
+                <p id="successMsg" style="display:none; color:green; margin-top:15px;">
+                    Your message has been sent successfully!
+                </p>
+
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

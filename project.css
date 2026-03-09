@@ -1,0 +1,74 @@
+
+
+ .project-card{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: rgba(187, 219, 242, 0.689);
+}
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.info-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+h1{
+    font-size: 33px;
+
+}
+p{
+    font-size: 1rem;
+    padding-top: 10px;
+}
+    button{
+        margin-top: 10px;
+        border: 5px solid black;
+        border-radius: 22px;
+        padding: 5px 5px;
+        font-weight: bolder;
+        color:black;
+    }
+ol li{
+    font-size: 30px;
+}
+ 
+
+ @media (max-width: 400px){
+    .info-container{
+    margin-left: 50px;
+ }
+.button{
+    font-size: 1.2rem;
+    padding: 5px 5px;
+
+}
+ }
+ p{
+    font-size: 0.9rem;
+    text-align: initial;
+ }
+
+
+@media (max-width:600px){
+    .info-container{
+    margin-left: 50px;
+ }
+ p{
+    font-size: 0.9rem;
+    text-align: initial;
+ }
+ #box{
+    width: 180px;
+}
+ h1{
+    font-size: 28px;
+ }
+}
+

@@ -1,0 +1,51 @@
+#box{
+    background-color: black;
+    height: 500px;
+    width: 200px;
+    margin: 20px auto;
+    margin-top: 10px;
+    border-radius: 25px;
+    border:5px rgb(101, 44, 207) solid ;
+}
+.red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 50px;
+}
+.yellow{
+    background-color:yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+   margin: 50px;
+   
+}
+.green{
+    background-color:green;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 50px;
+}
+div{
+    background-color: rgb(32, 32, 60);
+    height: 350px;
+    width: 45px;
+    margin: 50px 75px 75px 75px;
+    border-radius: 10px;
+    margin-bottom: 5rem;
+}
+
+.back{
+    font-size: 3rem;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 11px;
+    border: 5px solid black;
+}
+ 
+
+

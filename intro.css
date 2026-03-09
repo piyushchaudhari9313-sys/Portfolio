@@ -1,0 +1,88 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size: 1.5rem;
+}
+h2{
+  padding: 10px;
+  font-size: 1.7rem;
+}
+#skills ul li{
+    list-style: none;
+}
+#skills .html{
+    width: 315%;
+    background-color: rgb(169, 169, 227);
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 5px;
+    height: 15px;
+    color:rgb(3, 0, 2);
+    font-weight: bolder;
+    font-size: 14px;
+    margin-top:15px ;
+}    
+#skills .css{
+    width: 280%;
+    margin-top: 6px;
+    background-color: rgb(5, 188, 182);
+    border: 2px solid rgb(19, 1, 1);
+    text-align: center;
+    border-radius: 5px;
+    height: 15px;
+    color: rgb(7, 1, 1);
+    font-weight: bolder;
+    font-size: 14px;
+
+}    
+#skills .javascript{
+    width: 250%;
+    margin-top: 6px;
+    background-color: rgb(9, 179, 198);
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 5px;
+    height: 15px;
+    color:rgb(11, 10, 10);
+    font-weight:bolder ;
+    font-size: 13px;
+
+}    
+.em{
+    text-transform: none;
+}
+@media (max-width: 1615px){
+    #hero{
+        margin-right: 150px;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
+ @media (max-width: 750px){
+    h1{
+        font-size:  2rem;
+    }
+    #hero{
+        margin-right: 150px;
+        margin-top: 40rem;
+
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+
+ }
+
+ @media (max-width: 800px){
+    #hero{
+        margin-top: 35rem;
+    }
+   p{
+    font-size: 1.3rem;
+   }
+ }

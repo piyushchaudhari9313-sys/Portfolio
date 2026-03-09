@@ -1,0 +1,40 @@
+
+.back{
+    font-size: 3rem;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 1px;
+}
+
+.form-page{
+    background-color: lightblue;
+}
+ .form-page h1{
+text-decoration: blue double underline;
+font-style: italic;
+color: rgb(47,0,255);
+font-size: x-large;
+}
+
+.form-page h2{
+text-align:center;
+color:blue;
+}
+
+.form-page h3{
+color:blue;
+}
+
+.form-page p{
+color:aliceblue;
+}
+
+.form-page hr{
+border:2px solid rgb(145,47,177);
+}
+
+.form-page{
+border:9px groove black;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
