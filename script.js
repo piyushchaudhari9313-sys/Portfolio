@@ -29,25 +29,10 @@ cross.addEventListener('click', () => {
     }, 300); // same delay as sidebar transition
 });
 
-
-
-
-
-
-// // script.js
-// let form = document.querySelector(".contactForm"); // class 
-// let message = document.getElementById("successMsg"); //
-
-// form.addEventListener("submit", function(e){
-//     e.preventDefault(); // page reload stop
-//     message.style.display = "block"; // success message show
-//     form.reset(); // form reset
-// });
-
-
 const form = document.querySelector(".contactForm");
 
 form.addEventListener("submit", function(e){
     e.preventDefault(); 
     alert("Your message has been sent successfully!");
+    form.reset();
 });
